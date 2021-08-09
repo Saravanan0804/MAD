@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase Login Signup</string>
+    <string name="not_account_">Not Have Accont? <b>SignUp</b></string>
+</resources>

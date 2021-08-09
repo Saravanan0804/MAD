@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Orders Please" />
+
+    <TextView
+        android:id="@+id/emailTv"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Items" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/biriyani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biriyani" />
+
+        <CheckBox
+            android:id="@+id/curdrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curd Rice" />
+
+        <CheckBox
+            android:id="@+id/Sambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sambar Rice" />
+
+        <CheckBox
+            android:id="@+id/Koththu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koththu" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:textColor="#000"
+        android:id="@+id/book"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bill"
+        android:textSize="30dp"
+        android:textColor="#CD1212"/>
+
+
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Logout"
+        />
+
+</LinearLayout>
